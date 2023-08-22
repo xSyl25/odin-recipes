@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+}
+
 .body-main {
     text-align: center;
+    background-color: beige;
+    margin: 2em auto;
 }
 
 a {
@@ -8,4 +14,5 @@ a {
 
 .ul-main li {
     list-style-type: none;
+    margin: 1em 2em 1em 0em;
 }
