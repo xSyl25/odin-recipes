@@ -5,16 +5,38 @@
 .body-main {
     text-align: center;
     background-color: beige;
-    margin: 2em auto;
 }
 
-a {
+.container {
+    background-color: black;
+    padding: 1em;
+    border: .8em solid beige;
+}
+
+h1 {
+    color: white;
+    padding-bottom: .5em;
+}
+
+.a-main {
     text-decoration: none;
-    color: brown;
+    color: beige;
 }
 
 .ul-main li {
     list-style-type: none;
     margin: 1em 2.2em 1em 0em;
 
+}
+
+.logo {
+    width: 2.5em;
+    height: 2.5em;
+    padding: .3em;
+}
+
+.bg {
+    margin: 0 .35em .6em .35em;
+    width: 32%;
+    height: 307px;
 }
