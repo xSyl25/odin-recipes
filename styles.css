@@ -9,13 +9,13 @@
 
 .container {
     background-color: black;
-    padding: 1em;
-    border: .8em solid beige;
+    padding: .4em;
+    margin-bottom: 1em;
 }
 
-h1 {
+h1, hr {
     color: white;
-    padding-bottom: .5em;
+    margin: .5em;
 }
 
 .a-main {
@@ -36,7 +36,8 @@ h1 {
 }
 
 .bg {
-    margin: 0 .35em .6em .35em;
-    width: 32%;
+    margin: 0 1.1em .6em 1.1em;
+    width: 30%;
     height: 307px;
+    border: .2em solid black;
 }
