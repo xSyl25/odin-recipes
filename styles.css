@@ -7,6 +7,7 @@
     background-color: black;
     padding: .4em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 /* Main page */
@@ -17,7 +18,7 @@
 }
 
 .h-main, hr {
-    color: white;
+    color: beige;
     margin: .5em;
 }
 
@@ -51,48 +52,64 @@ body {
     background-color: beige;
 }
 
-.container {
-    text-align: center;
-}
 h1, p {
-    color: white;
+    color: beige;
 }
 
 .img-showcase-1, 
 .img-showcase-3 {
-    width: 30%;
+    width: 40%;
     margin-top: 1em;
+    opacity: 80%;
 }
 
 .img-showcase-2 {
-    width: 15%;
+    width: 20%;
+    opacity: 80%;
 }
 
 h3 {
     margin: .4em auto;
-    color: white;
+    color: beige;
 }
 
 h2 {
     margin: 1em 0 .2em 0;
-    color: white;
+    color: beige;
     background-image: linear-gradient(90deg, black, beige 70%);
     text-indent: 1em;
 }
 
 .ingredients li,
 .steps li {
-    margin: .8em auto;
+    margin: 1em 0;
+    width: 80%;
 }
 
-.return {
+.cred {
+    text-align: center;
+    color: black;
+    list-style-type: none;
+}
+
+.cred li {
+    margin-right: 2.2em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.return p, a {
     text-align: center;
     font-weight: bold;
-    text-decoration: none;
     margin: 1.5em 0 .5em 0;
     color: black;
 }
 
-.return:hover {
-    opacity: 60%;
+a {
+    text-decoration: none;
+    margin: 1.5em 0 .5em 0;
+}
+
+a:hover {
+    opacity: 50%;
 }
