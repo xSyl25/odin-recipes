@@ -1,5 +1,12 @@
 * {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: black;
+    padding: .4em;
+    margin-bottom: 1em;
 }
 
 /* Main page */
@@ -7,12 +14,6 @@
 .body-main {
     text-align: center;
     background-color: beige;
-}
-
-.container {
-    background-color: black;
-    padding: .4em;
-    margin-bottom: 1em;
 }
 
 .h-main, hr {
@@ -60,8 +61,38 @@ h1, p {
 .img-showcase-1, 
 .img-showcase-3 {
     width: 30%;
+    margin-top: 1em;
 }
 
 .img-showcase-2 {
     width: 15%;
+}
+
+h3 {
+    margin: .4em auto;
+    color: white;
+}
+
+h2 {
+    margin: 1em 0 .2em 0;
+    color: white;
+    background-image: linear-gradient(90deg, black, beige 70%);
+    text-indent: 1em;
+}
+
+.ingredients li,
+.steps li {
+    margin: .8em auto;
+}
+
+.return {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1.5em 0 .5em 0;
+    color: black;
+}
+
+.return:hover {
+    opacity: 60%;
 }
