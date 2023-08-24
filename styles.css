@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* Main page */
+
 .body-main {
     text-align: center;
     background-color: beige;
@@ -13,7 +15,7 @@
     margin-bottom: 1em;
 }
 
-h1, hr {
+.h-main, hr {
     color: white;
     margin: .5em;
 }
@@ -40,4 +42,26 @@ h1, hr {
     width: 30%;
     height: 307px;
     border: .2em solid black;
+}
+
+/* sub-pages */
+
+body {
+    background-color: beige;
+}
+
+.container {
+    text-align: center;
+}
+h1, p {
+    color: white;
+}
+
+.img-showcase-1, 
+.img-showcase-3 {
+    width: 30%;
+}
+
+.img-showcase-2 {
+    width: 15%;
 }
